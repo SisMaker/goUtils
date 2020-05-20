@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"./geometry"
+	"goUtils/learn/geometry/geometry"
 )
 
 func main() {
@@ -10,7 +10,7 @@ func main() {
 	q := geometry.Point{4, 6}
 	fmt.Println(geometry.Distance(p, q))
 	fmt.Println(p.Distance(q))
-	perim := geometry.Path{{1,1}, {5,1}, {5,4}, {1,1}}
+	perim := geometry.Path{{1, 1}, {5, 1}, {5, 4}, {1, 1}}
 	fmt.Println(perim.Distance())
 
 	pptr := &geometry.Point{7, 7}
