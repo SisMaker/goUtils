@@ -1,6 +1,7 @@
 package learn
+
 import "fmt"
 
-func main(){
+func main() {
 	fmt.Println("hello world!")
 }

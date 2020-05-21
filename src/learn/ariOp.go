@@ -12,7 +12,7 @@ func main() {
 	fmt.Printf("第 2222  c 的值 %d \n", c)
 	c = a * b
 	fmt.Printf("第 3333  c 的值 %d \n", c)
-	c = a*1.0 / b
+	c = a * 1.0 / b
 	fmt.Printf("第 4444  c 的值 %d \n", c)
 	c = a % b
 	fmt.Printf("第 5555  c 的值 %d \n", c)
