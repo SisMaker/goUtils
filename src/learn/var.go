@@ -1,5 +1,7 @@
 package main
+
 import "fmt"
+
 func main() {
 
 	// 声明一个变量并初始化
@@ -22,7 +24,7 @@ func main() {
 
 	var a1 *int
 	var a2 []int
-	var a3 map[string] int
+	var a3 map[string]int
 	var a4 chan int
 	var a5 func(string) int
 	var a6 error // error 是接口

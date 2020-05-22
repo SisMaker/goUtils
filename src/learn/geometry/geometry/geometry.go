@@ -2,7 +2,7 @@ package geometry
 
 import "math"
 
-type Point struct {X, Y float64}
+type Point struct{ X, Y float64 }
 
 // 普通函数
 func Distance(p, q Point) float64 {

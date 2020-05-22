@@ -11,9 +11,12 @@ func main() {
 
 	}
 	//var tet , bb int = 1, 2
-	var (tet int; bb string)
+	var (
+		tet int;
+		bb  string
+	)
 	print(tet, bb)
-	months := [...]string{1:"January", 12:"December"}
+	months := [...]string{1: "January", 12: "December"}
 	Q2 := months[4:7]
 	fmt.Println("%T %T", months, Q2)
 

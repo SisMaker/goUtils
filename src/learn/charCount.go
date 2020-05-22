@@ -12,7 +12,6 @@ import (
 var g = make(map[string]map[string]map[string]bool)
 var s = []uint{1}
 
-
 func main() {
 	counts := make(map[rune]int)
 	var utflen [utf8.UTFMax + 1]int
@@ -54,6 +53,5 @@ func main() {
 		fmt.Printf("\n%d invalid UTF-8 characters\n", invalid)
 
 	}
-
 
 }

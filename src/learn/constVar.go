@@ -5,7 +5,7 @@ import (
 	"unsafe"
 )
 
-const(
+const (
 	a1 = "abc"
 	b1 = len(a1)
 	c1 = unsafe.Sizeof(a1)
