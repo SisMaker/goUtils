@@ -15,4 +15,10 @@ var e, f = 123, "hello"
 func main() {
 	g, h := 123, "hello"
 	println(x, y, a, b, c, d, e, f, g, h)
+
+	var a, b, c int = 1, 2, 3
+	println(a, b, c)
+
+	var d float64 = 100
+	println(d)
 }
