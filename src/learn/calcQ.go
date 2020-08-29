@@ -77,5 +77,5 @@ func main() {
 	nonInitSlice = append(nonInitSlice, 111)
 	nonInitSlice = append(nonInitSlice, 2222)
 	fmt.Printf("IMY************** %v", nonInitSlice)
-
+	fmt.Printf("IMY**************float %v", 0x.Fp0)
 }
