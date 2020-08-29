@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"math"
 	"math/rand"
+	"strings"
 )
 
 func calcQuality(min, max, equipQuality, continueMatNumb int32, jewelQualityMap map[int32]int32) int32 {
@@ -50,4 +51,31 @@ func main() {
 	fmt.Printf("get eeeeeeeeeee  %v", q)
 	lastCost := CeilToInt32(float32(500 * 100.0 / (100 + 1)))
 	println("IMY********************", lastCost)
+	fmt.Printf("IMY******************** %v \n", strings.Split("5:6:7", ":"))
+	fmt.Printf("IMY******************** %v \n", strings.Split("8", ":"))
+	fmt.Printf("IMY******************** %v \n", int64(math.Ceil(float64(50)*float64(7197/3600.0))))
+	var duration int32 = 7197
+	A := float64(float64(duration) / 3600.0)
+	fmt.Printf("IMY********************%v \n", A)
+
+	fmap := make(map[int32]float64)
+	fmap[2] = 2.00
+	fmap[3] = 2.01
+	fmt.Printf("IMY*********%v %v \n", math.Ceil(fmap[1]), math.Ceil(fmap[1]))
+	fmt.Printf("IMY*********%v %v \n", math.Ceil(fmap[2]), math.Ceil(fmap[2]))
+	fmt.Printf("IMY*********%v %v \n", math.Ceil(fmap[3]), math.Ceil(fmap[3]))
+
+	vvv := make(map[int]map[int]int)
+
+	if _, ok := vvv[1]; !ok {
+		vvv[1] = make(map[int]int)
+	}
+	vvv[1][1] = 1
+	fmt.Printf("IMY*********%v %v \n", math.Ceil(fmap[3]), math.Ceil(fmap[3]))
+
+	var nonInitSlice []int
+	nonInitSlice = append(nonInitSlice, 111)
+	nonInitSlice = append(nonInitSlice, 2222)
+	fmt.Printf("IMY************** %v", nonInitSlice)
+
 }
