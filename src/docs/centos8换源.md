@@ -77,13 +77,14 @@
         yum -y install ncurses-devel unixODBC-devel openssl-devel  gcc gcc-c++ autoconf automake libxslt gtk3-devel.x86_64 
         
         运行configure配置 
+        ./otp_build autoconf       
         ./configure --prefix=/usr/local/erlang  --with-ssl  -enable-threads -enable-smmp-support -enable-kernel-poll  --enable-hipe  --without-javac
         
         fop is missing可以忽略
         
         运行make install安装 
         8 安装 
-        8.1 将erlang源码包解压到/root目录下（一定要/root目录, 非/root目录需要配置参数，还没搞明白) 
+        8.1 将erlang源码包解压到/root目录下（一定要/root目录, 非/root目录需要配置参数，还没搞明白)  
         8.2 运行./configrue 
         8.3 运行 make install 
         
